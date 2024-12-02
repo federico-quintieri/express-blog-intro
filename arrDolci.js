@@ -11,25 +11,25 @@ const arrayRicette = [
   {
     titolo: "Cracker Barbabietola",
     contenuto: "Non c'è contenuto",
-    immagine: "./public/ciambellone.jpeg",
+    immagine: "./public/cracker_barbabietola.jpeg",
     tags: arrayTag[1],
   },
   {
     titolo: "Pane fritto dolce",
     contenuto: "Non c'è contenuto",
-    immagine: "./public/ciambellone.jpeg",
+    immagine: "./public/pane_fritto_dolce.jpeg",
     tags: arrayTag[0],
   },
   {
     titolo: "Pasta barbabietola",
     contenuto: "Non c'è contenuto",
-    immagine: "./public/ciambellone.jpeg",
+    immagine: "./public/pasta_barbabietola.jpeg",
     tags: arrayTag[1],
   },
   {
     titolo: "Torta paesana",
     contenuto: "Non c'è contenuto",
-    immagine: "./public/ciambellone.jpeg",
+    immagine: "./public/paesana.jpeg",
     tags: arrayTag[0],
   },
 ];

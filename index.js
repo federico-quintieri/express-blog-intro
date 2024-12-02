@@ -12,16 +12,16 @@ console.log(arrayRicette);
 // Setto come pubblica la cartella public per poterci accedere
 app.use(express.static("public"));
 
-app.get("/", (request, respsonse) => {
+app.get("/", (request, response) => {
   console.log("Server del mio blog");
 });
 
-app.get("/bacheca", (request, respsonse) => {
+app.get("/bacheca", (request, response) => {
   // Qui restituisco un oggetto che contiene l'array di oggetti arrayRicette
   const oggettoReturn = { arrayRicette };
   // Invio la risposta convertendola in JSON
   // Il parametro sarà il contenuto della nostra risposta
-  respsonse.json(oggettoReturn);
+  response.json(oggettoReturn);
 });
 
 app.listen(port, () => {
