@@ -17,7 +17,11 @@ app.get("/", (request, respsonse) => {
 });
 
 app.get("/bacheca", (request, respsonse) => {
-  console.log("Bello zzzio");
+  // Qui restituisco un oggetto che contiene l'array di oggetti arrayRicette
+  const oggettoReturn = { arrayRicette };
+  // Invio la risposta convertendola in JSON
+  // Il parametro sarà il contenuto della nostra risposta
+  respsonse.json(oggettoReturn);
 });
 
 app.listen(port, () => {
